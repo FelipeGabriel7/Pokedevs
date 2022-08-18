@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/pokebolas.png">
+    <title>Pokedevs</title>
+</head>
+<body>
+    <main>
+    <header class="init">
+        <div class="title">
+            <img src="assets/img/pokebola.png">
+            <h1> Poke<span>devs</span> </h1>
+            <hr>
+        </div>
+    </header>
+    <section class="container">
+        <div class="section-1">
+            <div class="title-Search">
+            <p> Informe o nome do Pokemon ou ID</p>
+        </div>
+        <span class="error"></span>
+        <div class="search-pokemon">
+            <input type="text" name="text"  class="search" id="text" placeholder="Buscar">
+            <button type="submit" class="btn-search"> <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="card">
+            
+        </div>
+        </div>
+    </section>
+    <section class="container">
+        <div>
+        <div class="load-pokemons">
+            <button class="btn-load"> Carregar alguns Pokemons</button>
+            <button class="btn-recovery"> Recarregar </button>
+        </div>
+        <div class="card-load-pokemon">
+            
+        </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="assets/js/apiPokemon.js"></script>
+    <script src="assets/js/validate.js"></script>
+    <script src="assets/js/loadPokemons.js"></script>
+    <script src="https://kit.fontawesome.com/996eb60dc7.js" crossorigin="anonymous"></script>
+</body>
+</html>
