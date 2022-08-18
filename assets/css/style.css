@@ -83,6 +83,7 @@ li{
 
 
 .title-Search{
+    margin-top: 8rem;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -205,6 +206,9 @@ li{
     .card-list{
         width: 40%;
         padding: 1.2rem;
+    }
+    .title-Search{
+        margin-top: 4rem;
     }
 
     .search-pokemon{
