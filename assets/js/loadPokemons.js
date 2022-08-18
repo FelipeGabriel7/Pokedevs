@@ -13,7 +13,6 @@ function getAllPokemons() {
         pokemonsPromise.push(fetch(`https://pokeapi.co/api/v2/pokemon/${i}`).then(res => res.json()))
       }
 
-
       Promise.all(pokemonsPromise)
         .then(res => {
           const listPokemons = res.reduce((acc, pokemon) => {
@@ -36,7 +35,7 @@ function getAllPokemons() {
 
         btnLoad.style.display = 'none'
         btnRecovery.style.display = 'block'
-    }, 1500);
+    }, 1000);
   });
 }
 
@@ -45,7 +44,7 @@ function recoveryPage(){
   btnRecovery.addEventListener('click' , () => {
     setTimeout(() => {
         location.reload();
-    }, 600)
+    }, 500)
   })
 }
 

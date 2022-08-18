@@ -17,9 +17,11 @@ body{
     background-image: url('https://cdn.wallpapersafari.com/51/76/9c3uYx.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     background-attachment: fixed;
+    background-position: contain contain;
+
 }
+
 
 a{
     text-decoration: none;

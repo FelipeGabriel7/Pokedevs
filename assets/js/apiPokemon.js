@@ -10,8 +10,6 @@ function getPokemon() {
   btnSearchClick.addEventListener('click', (e) => {
     e.preventDefault();
 
- 
-
     fetch(`https://pokeapi.co/api/v2/pokemon/${searchInputPoke.value}`)
       .then(res => res.json())
       .then(res => {
