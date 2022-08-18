@@ -13,4 +13,4 @@ carregar alguns ja listados
 
 ##
 
-image.png
+<img src="image.png">
