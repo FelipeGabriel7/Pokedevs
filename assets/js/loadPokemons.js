@@ -7,8 +7,7 @@ function getAllPokemons() {
   btnLoad.addEventListener('click', function () {
     setTimeout(() => {
       let pokemonsPromise = []
-      console.log(pokemonsPromise)
-
+      
       for (let i = 1; i < 152; i++) {
         pokemonsPromise.push(fetch(`https://pokeapi.co/api/v2/pokemon/${i}`).then(res => res.json()))
       }
